@@ -6,9 +6,19 @@ import AppRoutes from "./routes/AppRoutes";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+
+      <Toaster
+        toastOptions={{
+          style: {
+            fontSize: "13px",
+          },
+        }}
+      />
+    </>
   );
 };
 
