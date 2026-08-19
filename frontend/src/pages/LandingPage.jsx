@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import HERO_IMG from "../assets/interview-prep-ai.png";
+import HERO_IMG from "../assets/interview-prep-ai (1).png";
 import { APP_FEATURES } from "../utils/data";
 import { useNavigate } from "react-router-dom";
 import { LuSparkles } from "react-icons/lu";
